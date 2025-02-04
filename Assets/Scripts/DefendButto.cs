@@ -2,16 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackButto : Butto
+public class DefendButto : Butto
 {
     public override void Click()
     {
         if (battleManager.timeSinceMove > battleManager.moveSpeed)
         {
-            battleManager.timeSinceMove = 0;
-            battleManager.player.Attack();
-            battleManager.player.Attack();
-            battleManager.player.Attack();
+            battleManager.timeSinceMove = 2.5f;
+            StartCoroutine(battleManager.player.Block());
         }
     }
 }

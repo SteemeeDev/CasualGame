@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: c03b9197c9be1224994d30d7ec52ad5f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: "Heart dame icon \xE1nimation_Frame_0"
+    originalName: 
+    pivot: {x: 0.5, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 14
+      height: 11
+    spriteID: a64fff35115a6774c95abba012ec1521
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 4}
+  - name: "Heart dame icon \xE1nimation_Frame_1"
+    originalName: 
+    pivot: {x: 0.5, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 4
+      width: 14
+      height: 11
+    spriteID: b31e89a5f2ccb60408036ad62d590554
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 4}
+  - name: "Heart dame icon \xE1nimation_Frame_2"
+    originalName: 
+    pivot: {x: 0.5, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 24
+      width: 14
+      height: 11
+    spriteID: 52a1e92646d6b92409879e902073d3bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 24}
+  - name: "Heart dame icon \xE1nimation_Frame_3"
+    originalName: 
+    pivot: {x: 0.5, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 24
+      width: 14
+      height: 11
+    spriteID: d83e1e54d401e194e950ef8a31297b9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 24}
+  - name: "Heart dame icon \xE1nimation_Frame_4"
+    originalName: 
+    pivot: {x: 0.5, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 24
+      width: 14
+      height: 11
+    spriteID: e70c6b7e01f8e754da8be6b69021c96c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 24}
+  - name: "Heart dame icon \xE1nimation_Frame_5"
+    originalName: 
+    pivot: {x: 0.5, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 24
+      width: 14
+      height: 11
+    spriteID: 28597b4e2236be04e90677664ce3d955
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 24}
+  - name: "Heart dame icon \xE1nimation_Frame_6"
+    originalName: 
+    pivot: {x: 0.5, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 24
+      width: 14
+      height: 11
+    spriteID: ffdae53b7c9798f46a6e2597e3fea6e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 24}
+  - name: "Heart dame icon \xE1nimation_Frame_7"
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 14
+      height: 11
+    spriteID: aec8f49fd530b584494aa03d0f487dcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 43}
+  - name: "Heart dame icon \xE1nimation_Frame_8"
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 43
+      width: 14
+      height: 11
+    spriteID: 395591c24e180824cad652597d3234d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 43}
+  - name: "Heart dame icon \xE1nimation_Frame_9"
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 43
+      width: 14
+      height: 11
+    spriteID: e1771a1b1e48ab8438217f4f7e592ba5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 43}
+  - name: "Heart dame icon \xE1nimation_Frame_10"
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 43
+      width: 14
+      height: 11
+    spriteID: 3fd16c493a4f71345992333e5384250d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 43}
+  - name: "Heart dame icon \xE1nimation_Frame_11"
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 43
+      width: 14
+      height: 11
+    spriteID: 41a996bcc62d044469d3154c1c3735f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 43}
+  - name: "Heart dame icon \xE1nimation_Frame_12"
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 62
+      width: 14
+      height: 11
+    spriteID: 87851ff6ffb59714384f4b11afa7fd29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 62}
+  - name: "Heart dame icon \xE1nimation_Frame_13"
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 62
+      width: 14
+      height: 11
+    spriteID: 3e83ac346cc4d884f9ce14c3cc0b08db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 62}
+  - name: "Heart dame icon \xE1nimation_Frame_14"
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 62
+      width: 14
+      height: 11
+    spriteID: e0cc0196aed08974b90e70afecdedb71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 62}
+  - name: "Heart dame icon \xE1nimation_Frame_15"
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 62
+      width: 14
+      height: 11
+    spriteID: 564f716f8dfcb5b4996b6a0fb3183f15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 62}
+  - name: "Heart dame icon \xE1nimation_Frame_16"
+    originalName: 
+    pivot: {x: 0.5, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 16
+      height: 12
+    spriteID: 6c2cf91a69c91ac4b9fe756f4d79e574
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: "Heart dame icon \xE1nimation_Frame_17"
+    originalName: 
+    pivot: {x: 0.5, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 4
+      width: 16
+      height: 12
+    spriteID: e4ffbee80e213434f823081708978d9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 4}
+  - name: "Heart dame icon \xE1nimation_Frame_18"
+    originalName: 
+    pivot: {x: 0.5, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 4
+      width: 16
+      height: 12
+    spriteID: 2b640c560a29733498893bac28f55071
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1682288530
+    name: "Heart dame icon \xE1nimation"
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: "Heart dame icon \xE1nimation_Frame_0"
+      frameIndex: 0
+      cellRect:
+        x: 9
+        y: 9
+        width: 14
+        height: 11
+      spriteId: a64fff35115a6774c95abba012ec1521
+    - name: "Heart dame icon \xE1nimation_Frame_1"
+      frameIndex: 1
+      cellRect:
+        x: 9
+        y: 9
+        width: 14
+        height: 11
+      spriteId: b31e89a5f2ccb60408036ad62d590554
+    - name: "Heart dame icon \xE1nimation_Frame_2"
+      frameIndex: 2
+      cellRect:
+        x: 9
+        y: 9
+        width: 14
+        height: 11
+      spriteId: 52a1e92646d6b92409879e902073d3bc
+    - name: "Heart dame icon \xE1nimation_Frame_3"
+      frameIndex: 3
+      cellRect:
+        x: 9
+        y: 9
+        width: 14
+        height: 11
+      spriteId: d83e1e54d401e194e950ef8a31297b9a
+    - name: "Heart dame icon \xE1nimation_Frame_4"
+      frameIndex: 4
+      cellRect:
+        x: 9
+        y: 9
+        width: 14
+        height: 11
+      spriteId: e70c6b7e01f8e754da8be6b69021c96c
+    - name: "Heart dame icon \xE1nimation_Frame_5"
+      frameIndex: 5
+      cellRect:
+        x: 9
+        y: 9
+        width: 14
+        height: 11
+      spriteId: 28597b4e2236be04e90677664ce3d955
+    - name: "Heart dame icon \xE1nimation_Frame_6"
+      frameIndex: 6
+      cellRect:
+        x: 9
+        y: 9
+        width: 14
+        height: 11
+      spriteId: ffdae53b7c9798f46a6e2597e3fea6e1
+    - name: "Heart dame icon \xE1nimation_Frame_7"
+      frameIndex: 7
+      cellRect:
+        x: 8
+        y: 9
+        width: 14
+        height: 11
+      spriteId: aec8f49fd530b584494aa03d0f487dcc
+    - name: "Heart dame icon \xE1nimation_Frame_8"
+      frameIndex: 8
+      cellRect:
+        x: 8
+        y: 9
+        width: 14
+        height: 11
+      spriteId: 395591c24e180824cad652597d3234d9
+    - name: "Heart dame icon \xE1nimation_Frame_9"
+      frameIndex: 9
+      cellRect:
+        x: 10
+        y: 9
+        width: 14
+        height: 11
+      spriteId: e1771a1b1e48ab8438217f4f7e592ba5
+    - name: "Heart dame icon \xE1nimation_Frame_10"
+      frameIndex: 10
+      cellRect:
+        x: 10
+        y: 9
+        width: 14
+        height: 11
+      spriteId: 3fd16c493a4f71345992333e5384250d
+    - name: "Heart dame icon \xE1nimation_Frame_11"
+      frameIndex: 11
+      cellRect:
+        x: 8
+        y: 9
+        width: 14
+        height: 11
+      spriteId: 41a996bcc62d044469d3154c1c3735f7
+    - name: "Heart dame icon \xE1nimation_Frame_12"
+      frameIndex: 12
+      cellRect:
+        x: 10
+        y: 9
+        width: 14
+        height: 11
+      spriteId: 87851ff6ffb59714384f4b11afa7fd29
+    - name: "Heart dame icon \xE1nimation_Frame_13"
+      frameIndex: 13
+      cellRect:
+        x: 8
+        y: 9
+        width: 14
+        height: 11
+      spriteId: 3e83ac346cc4d884f9ce14c3cc0b08db
+    - name: "Heart dame icon \xE1nimation_Frame_14"
+      frameIndex: 14
+      cellRect:
+        x: 10
+        y: 9
+        width: 14
+        height: 11
+      spriteId: e0cc0196aed08974b90e70afecdedb71
+    - name: "Heart dame icon \xE1nimation_Frame_15"
+      frameIndex: 15
+      cellRect:
+        x: 8
+        y: 9
+        width: 14
+        height: 11
+      spriteId: 564f716f8dfcb5b4996b6a0fb3183f15
+    - name: "Heart dame icon \xE1nimation_Frame_16"
+      frameIndex: 16
+      cellRect:
+        x: 8
+        y: 8
+        width: 16
+        height: 12
+      spriteId: 6c2cf91a69c91ac4b9fe756f4d79e574
+    - name: "Heart dame icon \xE1nimation_Frame_17"
+      frameIndex: 17
+      cellRect:
+        x: 8
+        y: 8
+        width: 16
+        height: 12
+      spriteId: e4ffbee80e213434f823081708978d9e
+    - name: "Heart dame icon \xE1nimation_Frame_18"
+      frameIndex: 18
+      cellRect:
+        x: 8
+        y: 8
+        width: 16
+        height: 12
+      spriteId: 2b640c560a29733498893bac28f55071
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

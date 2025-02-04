@@ -4,9 +4,29 @@ using UnityEngine;
 
 public class Player : Enemy
 {
+    public Animator animator;
+    public override void Awake()
+    {
+        base.Awake();
+        attackSpeed = 7;
+    }
     public override void Attack()
     {
-        battleManager.currentEnemy.health -= 5;
-        battleManager.currentEnemy.healthBar.currentHealth -= 5;
+        base.Attack();
+        animator.SetTrigger("Attack");
+        if (!battleManager.currentEnemy.defending) battleManager.currentEnemy.health -= 18;
+        if (battleManager.buffIndex == 0)
+        {
+            battleManager.currentEnemy.health -= 9;
+            battleManager.player.health -= 3;
+        }
+
+        if (battleManager.buffIndex == 2)
+        {
+
+            battleManager.currentEnemy.health -= 10 * Random.Range(0, 2);
+        }
+        battleManager.currentEnemy.healthBar.currentHealth = battleManager.currentEnemy.health;
+        Debug.Log("Attackin'");
     }
 }
