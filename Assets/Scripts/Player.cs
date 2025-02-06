@@ -17,8 +17,8 @@ public class Player : Enemy
         if (!battleManager.currentEnemy.defending) battleManager.currentEnemy.health -= 18;
         if (battleManager.buffIndex == 0)
         {
-            battleManager.currentEnemy.health -= 40;
-            battleManager.player.health -= 20;
+            battleManager.currentEnemy.health -= 9;
+            battleManager.player.health -= 3;
         }
 
         if (battleManager.buffIndex == 2)
